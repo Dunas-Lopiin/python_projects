@@ -19,11 +19,6 @@ header  h1 a{
     margin-right: auto;
 }
 
-.nav-right {
-      display: flex;
-      padding-top: 2rem;
-}
-
 .post-entry {
   margin-bottom: 2rem;
 }
@@ -42,6 +37,21 @@ header  h1 a{
 }
 .post-entry h2 a:hover {
    color:red;
+}
+
+.nav-right {
+      display: flex;
+      padding-top: 2rem;
+}
+
+.nav-right a{
+    color:red;
+    text-decoration: none;
+}
+
+h2 a:visited{
+    color:red;
+    text-decoration: none;
 }
 
 
